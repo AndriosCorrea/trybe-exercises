@@ -14,15 +14,40 @@
     <title>HTML</title>
     <style>
         h1 {
-            font-size: 65px;
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: right;
+            margin-right: 150px;
             color: orange
+            
         }
         li {
-            background-color: rgb(38, 99, 23);
+            font-style: italic;
+            text-decoration: underline;
+            background-color: rgb(84, 163, 209);
             color: antiquewhite;
         }
         .new-color{
-            background-color: blue;
+            
+            background-color: rgba(28, 65, 187, 0.527);
+        }
+        p {
+            text-align: center;
+            font-size: 3em;
+            font-weight: 600;
+        }
+        body {
+            font-size: 16px;
+        }
+        #y {
+            color:black;
+            background-color: rgba(248, 244, 0, 0.719);
+        }
+        #r {
+            background-color: rgb(204, 3, 3);
+        }
+        #b {
+            background-color: rgb(156, 73, 4);
         }
     </style>
   </head>
@@ -31,9 +56,9 @@
 
     <p class="new-color">Qual é a sua cor favorita?</p>
     <ul class="new-color">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="y">Amarelo</li>
+      <li id="r">Vermelho</li>
+      <li id="b">Marrom</li>
     </ul>
    
   </body>
