@@ -1,0 +1,38 @@
+
+        h1 {
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: right;
+            margin-right: 150px;
+            color: orange
+            
+        }
+        li {
+            font-style: italic;
+            text-decoration: underline;
+            background-color: rgb(84, 163, 209);
+            color: antiquewhite;
+        }
+        .new-color{
+            
+            background-color: rgba(28, 65, 187, 0.527);
+        }
+        p {
+            text-align: center;
+            font-size: 3em;
+            font-weight: 600;
+        }
+        body {
+            font-size: 16px;
+        }
+        #y {
+            color:black;
+            background-color: rgba(248, 244, 0, 0.719);
+        }
+        #r {
+            background-color: rgb(204, 3, 3);
+        }
+        #b {
+            background-color: rgb(156, 73, 4);
+        }
+    
