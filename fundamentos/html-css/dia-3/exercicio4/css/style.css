@@ -3,19 +3,23 @@ div:hover{
   border-color: blue;
 }
  div:nth-of-type(1) > h3{
- background-color: red;
- color: blue;
-}
+    text-decoration: line-through;
+    background-color: red;
+ }
 div:nth-of-type(2){
     background-color: blue;
+    font-size: x-large;
 }
 div:nth-of-type(3){
     background-color:green;
+    font-style: oblique;
     
 }
 div:nth-of-type(4){
     background-color: black;
+    color: aliceblue;
 }
 div:nth-of-type(5){
     background-color: yellow;
+  text-decoration: underline;
 }
