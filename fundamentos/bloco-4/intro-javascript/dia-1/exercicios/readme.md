@@ -1,0 +1,1 @@
+Exercícios da aula de introdução a javascript, feito no dia 13 de maio de 2022, pro curso de desenvolvimento web da escola [Trybe] (https:betrybe.com)
