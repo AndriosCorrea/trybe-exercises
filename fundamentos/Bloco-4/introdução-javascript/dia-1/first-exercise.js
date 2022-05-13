@@ -40,7 +40,7 @@
 // notaFinal <=80 && >=60 - Lista de espera
 // notaFinal <60 && >=0 - Reprovado
 // let notaFinal = 95;
-let grade = 67;
+// let grade = 67;
 // let notaFinal = 45;
 
 // if (grade >= 80) {
@@ -51,21 +51,53 @@ let grade = 67;
 //     console.log("Você foi reprovada(o)")
 //   }
 
-const currentHour = 15
-let message = ""
+  // const currentHour = 15;
+  // let message = "";
 
-  if (currentHour >= 22) {
-    message = "Não deveríamos comer nada, é hora de dormir";
-  } else if (currentHour >= 18 && currentHour < 22) {
-    message = "Rango da noite, vamos jantar :D";
-  } else if (currentHour >= 14 && currentHour < 18) {
-    message = "Vamos fazer um bolo pro café da tarde?";
-  } else if (currentHour >= 11 && currentHour < 14) {
-    message = "Hora do almoço!!!";
-  } else if (currentHour < 11 && currentHour < 4) {
-    message = "Hmmm, cheiro de café recém passado";
-  }
+//   if (currentHour >= 22) {
+//     message = "Não deveríamos comer nada, é hora de dormir";
+//   } else if (currentHour >= 18 && currentHour < 22) {
+//     message = "Rango da noite, vamos jantar :D";
+//   } else if (currentHour >= 14 && currentHour < 18) {
+//     message = "Vamos fazer um bolo pro café da tarde?";
+//   } else if (currentHour >= 11 && currentHour < 14) {
+//     message = "Hora do almoço!!!";
+//   } else if (currentHour < 11 && currentHour < 4) {
+//     message = "Hmmm, cheiro de café recém passado";
+//   }
+// console.log(message)
+
+
+
+// let weekDay = "quarta-feira"
+
+// if (weekDay === "segunda"){
+//   console.log("trybe")
+// }else {
+//   console.log("folga")
+// }
+
+// console.log (2+2) === 4
+
+// console.log(!(2+2))===4
 
 
 
 
+
+
+let candidata = "aprovada";
+switch (candidata){
+  case "80":
+  console.log("aprovada");
+  break;
+
+  case 60:
+  console.log("lista de espera");
+  break;
+
+  case 50:
+  console.log("reprovada")
+  break;
+}
+console.log (candidata);
