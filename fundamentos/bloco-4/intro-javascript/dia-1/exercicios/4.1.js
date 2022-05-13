@@ -199,7 +199,7 @@ Dica: que tal identificar as alíquotas com variáveis de nomes explicativos?*/
 
 
 
-let inss;
+/* let inss;
 let imposto;
 let salarioBruto = 2500;
 if (salarioBruto <=1556.94){
@@ -229,7 +229,9 @@ if (salarioBruto <= 1903.98){
     imposto = (salarioLiquido * 0.275) - 869.36;
 }
 
-console.log("Sálario liquido:" + (salarioLiquido - imposto) )
+console.log("Sálario liquido:" + (salarioLiquido - imposto) )*/
+
+
 
 
 
